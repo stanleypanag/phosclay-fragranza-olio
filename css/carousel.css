@@ -1,0 +1,16 @@
+.carousel-school {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .carousel-school {
+        height: 100px;
+        position: relative;
+        margin-bottom: 500px;
+    }
+}

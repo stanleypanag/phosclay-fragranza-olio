@@ -1,0 +1,265 @@
+@media(max-width:800px){
+    #videos{
+        width:450px;
+    }
+}
+
+
+
+@media (max-width: 768){
+    header{
+        padding: 20px 40px;
+    }
+     .imgBx{
+        padding: 40px;
+    }
+     .imgBx .content h2{
+        font-size: 20px;
+    }
+    .imgBx .content p{
+        font-size: 1em;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+
+    
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+
+    
+}
+
+
+
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        width: 1000px;
+    }
+    
+    #header-carousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* Updated Start  */
+
+    .container-xxl{
+        text-align: center;
+        
+    }
+    .container-xl{
+        padding-bottom: 0px
+    }
+    .container-lol{
+        padding: 10px;
+        align-self: center;
+        margin: auto;
+    }
+
+    #carouselExampleControls{
+        width: 100%;
+    }
+    .carousel-item img{
+        height: auto;
+        align-self: center;
+        margin: auto;
+    }
+
+    /* Updated End */
+}
+
+
+
+
+@media (min-width: 991.98px) {
+    .top-feature {
+        position: relative;
+        margin-top: -80px;
+        z-index: 1;
+    }
+
+}
+
+
+
+@media(max-width:998px){
+    #testimonial-item{
+        width:300px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+        margin:0 40px;
+    }
+    #testimonial-item img{
+        width: 400px;
+        height: 300px;
+        margin-left:10px;
+    }
+    #testimonial-item #ama{
+        width: 600px;
+        height: 250px;
+    }
+    #testimonial-items img{
+        height: 400px; 
+        width:500px;
+    }
+    .carousel-inner .carousel-item img{
+        height: auto;
+    }
+
+    /* Update -start */
+    .container-xxl{
+        margin:auto;
+        padding-right: 30px;
+    }
+
+    .container-lol{
+        padding-top: 80px;
+        align-self: center;
+        margin: auto;
+    }
+
+    #carouselExampleControls, .carousel-box{
+        width: 100%;
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+
+    #first-carousel{
+        align-items: center;
+        overflow: hidden;
+        justify-content: center ;
+        margin-left: 170px;
+    }
+
+    #testimonial-item{
+        width:300px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+    #testimonial-item img{
+        width: 250px;
+        height: 250px;
+
+    }
+    #testimonial-item #ama{
+        width: 500px;
+        height: 200px;
+    }
+    #testimonial-items img{
+        height: 400px; 
+        width:500px;
+    }
+
+    .container{
+        flex-direction: row-reverse;
+    }
+
+    .two-content-container{
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .carousel-school{
+        padding-top: 50px;
+    }
+
+    .map-and-img{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-and-img .container-img-location{
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    /* Update End */
+
+}
+
+
+
+@media(max-width:500px){
+
+    #testimonial-item{
+        width:300px;
+    }
+    #testimonial-item img{
+        width: 250px;
+        height: 250px;
+    }
+    #testimonial-item #ama{
+        width: 500px;
+        height: 200px;
+    }
+    #testimonial-items img{
+        height: 400px; 
+        width:500px;
+    }
+    #testimonial-items video{
+        padding-top: 192px;
+    }
+
+    /* Updated Codes */
+    .navbar-toggler span{
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-brand img{
+        height: 5vh;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    #first-carousel{
+        align-items: center;
+        overflow: hidden;
+        justify-content: center ;
+        margin-left: 10px;
+    }
+    .carousel-school{
+        padding-left: 20px;
+    }
+
+
+}
