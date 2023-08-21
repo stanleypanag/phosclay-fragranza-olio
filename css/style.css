@@ -19,12 +19,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffdf2b;
+    background: #ffe600;
+  
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: hsl(51, 66%, 49%);
 }
 
 body{
