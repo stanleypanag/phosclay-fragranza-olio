@@ -28,10 +28,6 @@
   background: hsl(51, 66%, 49%);
 }
 
-body{
-    overflow-x: hidden;
-}
-
 :root {
     --primary: #348E38;
     --secondary: #525368;
@@ -593,44 +589,4 @@ h6,
 .testimonial-carousel .owl-nav .owl-next:hover {
     background: #ffdf2b;
     color: #fff;
-}
-
-
-/*** Footer ***/
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: var(--light);
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
-}
-
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
-
-.footer .btn.btn-link:hover {
-    color: #ffdf2b;
-    letter-spacing: 1px;
-    box-shadow: none;
-}
-
-.copyright {
-    color: var(--light);
-    background-image: linear-gradient(to right, #AE8625 , #F7EF8A , #D2AC47 , #EDC967);
-}
-
-.copyright a {
-    color: #FFFFFF;
-}
-
-.copyright a:hover {
-    color: #000;
 }

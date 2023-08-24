@@ -35,6 +35,23 @@
   }
 
 
+  .flip-box-back img{
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.flip-box-front img{
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.img-card img:hover{
+    transform: scale(1.05);
+}
+
+
 
 
 
