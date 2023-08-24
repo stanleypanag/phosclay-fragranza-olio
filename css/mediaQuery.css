@@ -100,6 +100,13 @@
         margin: auto;
     }
 
+    .map-and-img p{
+        overflow: hidden;
+        margin: auto;
+    }
+
+
+
     /* Updated End */
 }
 
@@ -111,13 +118,14 @@
         position: relative;
         margin-top: -80px;
         z-index: 1;
-    }
+    }   
 
 }
 
 
 
 @media(max-width:998px) {
+
     #testimonial-item {
         width: 300px;
         text-align: center;
@@ -150,7 +158,6 @@
     /* Update -start */
     .container-xxl {
         margin: auto;
-        padding-right: 30px;
     }
 
     .container-lol {
@@ -219,9 +226,16 @@
 
     .map-and-img .container-img-location {
         margin: auto;
-        padding-left: 10px;
     }
 
+
+    .mens-text h1{
+        padding-top: 10px;
+    }
+
+    .womens-text h1{
+        padding-top: 10px;
+    }
     /* Update End */
 
 }
@@ -278,4 +292,10 @@
         padding-left: 20px;
     }
 
+    .mens-text, h1{
+        padding-top: 10px;
+    }
+    .womens-text, h1{
+        padding-top: 10px;
+    }
 }
