@@ -80,10 +80,6 @@
 
     }
 
-    .container-xl {
-        padding-bottom: 0px
-    }
-
     .container-lol {
         padding: 10px;
         align-self: center;
@@ -298,4 +294,6 @@
     .womens-text, h1{
         padding-top: 10px;
     }
+
+    
 }

@@ -1,6 +1,8 @@
 .flip-box {
     background-color: transparent;
     perspective: 1000px;
+    border: solid 1px;
+    border-radius: 50px;
  
   }
   

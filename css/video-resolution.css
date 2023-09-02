@@ -1,0 +1,21 @@
+
+.vid-container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-top: 40%; /* 16:9 aspect ratio */
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: #000000;
+    height: 500px;
+  }
+  
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
